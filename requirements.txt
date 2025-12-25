@@ -3,3 +3,4 @@ uvicorn
 python-multipart
 google-cloud-aiplatform
 google-cloud-storage
+google-cloud-bigquery
