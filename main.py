@@ -21,7 +21,7 @@ bq_client = bigquery.Client()
 
 @app.get("/")
 def health_check():
-    return {"status": "alive", "system": "enterprise-v1"}
+    return {"status": "alive", "system": "enterprise-v2-automated"}
 
 @app.post("/analyze")
 async def analyze(file: UploadFile = File(...)):
